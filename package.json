@@ -19,7 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy":"yarn build && firebase deploy"
+    "deploy":"yarn build && firebase deploy",
+    "push":"git init && git add . && git commit && git push -u origin main"
   },
   "eslintConfig": {
     "extends": [
